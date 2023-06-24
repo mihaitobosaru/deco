@@ -1,0 +1,34 @@
+{
+  "name": "image-classification-expo",
+  "displayName": "image-classification-expo",
+  "expo": {
+    "name": "De.Coded - A Human Atlas",
+    "slug": "image-classification-expo",
+    "version": "1.0.2",
+    "icon": "./assets/icon-x2-120x120.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bitcode": false,
+      "bundleIdentifier": "com.glassworks.decoded",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "CFBundleIconName": "icon-x2-120x120.png"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "25044ba1-e385-40c7-bc6a-852e876919d5"
+      }
+    },
+    "android": {
+      "package": "com.emotionstudios.decoded"
+    },
+    "plugins": [
+      "react-native-vision-camera"
+    ]
+  }
+}
